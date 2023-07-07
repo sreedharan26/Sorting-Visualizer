@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading">
+        <h1 class="title">Sorting Visualizer</h1>
+    </div>
+    <hr>
+    <div class="opr">
+        <div class="gen">
+            <button class="arr btn" >
+                New Array
+            </button>
+        </div>
+        
+        <div class="sorts">
+            <button class="bub sort btn">
+                Bubble Sort
+            </button>
+            <button class="sel sort btn">
+                Selection Sort
+            </button>
+            <button class="ins sort btn">
+                Insertion Sort
+            </button>
+            <button class="merge sort btn">
+                Merge Sort
+            </button>
+            <button class="quick sort btn">
+                Quick Sort
+            </button>
+            <button class="heap sort btn">
+                Heap Sort
+            </button>
+        </div>
+    </div>
+    <hr>
+    <div class="cen">
+        <div class="bar-container" style="
+            height: 45rem;
+        ">
+            <!-- <div class="bar"> -->
+                
+    
+            <!-- </div> -->
+        </div>
+        <div class="res">
+
+        </div>
+    </div>
+    <div class="controls">
+        <div class="sizecontroller cnt" style="display: flex;">
+            <p>Array Size: </p>
+            <input type="range" min="1" max="83" value="10" class="size-slider" >
+        </div>
+        <div class="speedcontroller cnt" style="display: flex;">
+            <p>Speed: </p>
+            <input type="range" min="10" max="100"  value="10"
+            class="speed-slider" >
+          </div>
+    </div>
+    <script src="index.js"></script>
+    <!-- <script src="index2.js"></script> -->
+</body>
+</html>
